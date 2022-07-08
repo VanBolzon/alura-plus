@@ -1,0 +1,41 @@
+@media (max-width: 400px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        background-image: none;
+        margin-bottom: .5em;
+    }
+
+    .secundario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secundario__imagem {
+        width: 300px;
+    }
+
+    .container__descricao {
+        margin: 0;
+        padding: 0;
+    }
+
+    .descricao__titulo {
+        display: block;
+        text-align: center;
+        padding-bottom: .5em;
+    }
+
+    .descricao__texto {
+        width: 350px;
+        display: block;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .secundario__botao {
+        width: 300px;
+        text-align: center;
+        margin-bottom: 4em;
+    }
+}

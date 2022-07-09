@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .container {
         display: flex;
         justify-content: center;
@@ -37,5 +37,26 @@
         width: 300px;
         text-align: center;
         margin-bottom: 4em;
+    }
+
+    .imagem_notebook {
+        width: 350px;
+        margin: 3em;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;
+    }
+
+    .rodape__lista {
+        flex-direction: column;
+    }
+
+    .lista__link {
+        padding: 0.1em 0;
+    }
+
+    .rodape__texto {
+        width: 350px;
     }
 }
